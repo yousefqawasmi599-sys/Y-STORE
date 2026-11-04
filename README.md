@@ -2,6 +2,8 @@
 
 A full-stack streetwear store built with **Next.js 15** and **Supabase**: a bilingual English/Arabic storefront, server-rendered product pages, a transactional checkout, guest order tracking, customer accounts and an admin dashboard, plus an interactive 3D showroom.
 
+**Live demo: [y-store-omega.vercel.app](https://y-store-omega.vercel.app)**
+
 ![Y Store home page](docs/screenshots/01-home.webp)
 
 ## Highlights
