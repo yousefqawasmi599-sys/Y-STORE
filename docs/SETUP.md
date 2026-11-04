@@ -84,6 +84,6 @@ Run `supabase/tests/customer_orders.sql` to test tracking privacy and customer c
 
 The clean delivery includes source, assets, SQL and tests, without dependency folders, build output or archives. Product images use the supplied HD sources rather than enlarged duplicates. Keep the lockfile; `npm ci` reproduces dependencies.
 
-Before the first Git push, inspect `git status` and confirm `.env.local` is absent. The GitHub ZIP excludes local environment values. Set environment values separately on the host, set `SITE_URL` to the HTTPS domain, and update Supabase redirect URLs. Deploying and pushing to GitHub have not been performed.
+Before pushing, inspect `git status` and confirm `.env.local` is absent. When deploying, set environment values separately on the host, set `SITE_URL` to the HTTPS domain, and update Supabase redirect URLs.
 
 The site remains a personal preview. Before selling, replace illustrative product shots/specifications with accurate product information and review shipping/returns/policy copy. Online payments, production email delivery and production-domain setup remain provider-specific work.
